@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brownish"
+    tools:context=".Notifications">
+
+    <EditText
+        android:id="@+id/topic"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/topic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/topic"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rectang"
+        android:hint="@string/amount"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGrey"
+        android:layout_marginStart="9dp"
+        android:hint="@string/choose_date"
+        android:layout_below= "@+id/amount"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="220dp"
+        android:layout_height="98dp"
+        android:layout_below="@+id/simpleDatePicker"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="6dp"
+        android:timePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="397dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/timePicker"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/set_a_reminder"
+        android:inputType="textMultiLine"
+        android:layout_marginStart="3dp"
+        />
+
+    <TextView
+        android:id="@+id/remind"
+        android:textSize="20sp"
+        android:layout_width="380dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/note"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/remind_me_on"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        />
+
+    <!--<TextView
+        android:id="@+id/notif"
+        android:textSize="18sp"
+        android:layout_width="400dp"
+        android:background="@drawable/border"
+        android:layout_height="100dp"
+        android:layout_below="@+id/remind"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+    /> -->
+
+    <LinearLayout
+        android:id="@+id/daypicker_layout"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remind"
+        android:layout_centerHorizontal="true">
+
+        <include
+            android:id="@+id/daypicker"
+            layout="@layout/day_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></include>
+    </LinearLayout>
+
+</RelativeLayout>

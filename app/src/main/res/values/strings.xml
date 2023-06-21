@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Saasa App</string>
+    <string name="problem"> Keeping up with bills and payments a problem?
+    \n
+        Try our app and let us ease your workload
+    </string>
+    <string name="notif">your detail of notification...</string>
+    <string name="get_started">Get Started</string>
+    <string name="create_notifications_here">Create Notifications Here</string>
+    <string name="my_reminders">My Bills</string>
+    <string name="general">General</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">my bills</string>
+    <string name="add_new_bill">Add new bill</string>
+    <string name="textview">my new notifications</string>
+    <string name="set_a_reminder">Add a small note</string>
+    <string name="topic">Reminder Title</string>
+    <string name="amount">amount</string>
+    <string name="choose_date">choose date</string>
+    <string name="remind_me_on">Remind me on</string>
+    <string name="sign_up_now">Sign Up Saasa !</string>
+    <string name="emailzz">Email</string>
+    <string name="passwordzz">password</string>
+    <string name="signbtn">Sign Up</string>
+    <string name="already_user">Already an existing user? Login Instead</string>
+    <string name="saasa_login">Saasa Login</string>
+    <string name="loginbtn">Login</string>
+    <string name="no_account_sign_up_instead">No Account? Sign Up Instead!</string>
+    <string name="add_note">Add note</string>
+    <string name="done_icon">done</string>
+    <string name="settings_note">settings</string>
+    <string name="general_bills">General Bills</string>
+    <string name="trecycler_title">Title</string>
+    <string name="recycler_amount">amounts</string>
+    <string name="recycler_date">date</string>
+    <string name="recycler_times">time</string>
+    <string name="recycler_notes">notess</string>
+    <string name="trecycler_timestamp">timestamp</string>
+</resources>

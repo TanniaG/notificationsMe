@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trecycler_title"
+        android:ellipsize="end"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/ramount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler_amount"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/rdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler_date"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/rtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler_times"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/small_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler_notes"
+        android:maxLines="3"
+        android:textSize="17sp"
+        android:ellipsize="end"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/rtimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trecycler_timestamp"
+        android:gravity="right"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>

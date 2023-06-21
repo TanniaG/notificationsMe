@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/brownish"
+    tools:context=".Bills">
+
+
+   <!-- <TextView
+        android:id="@+id/mybills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        />
+
+        <ListView
+        android:id="@+id/listView"
+        android:layout_width="409dp"
+        android:layout_height="620dp"
+        android:layout_marginTop="30dp"
+        /> -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/add_post"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/grey"
+        android:contentDescription="@string/add_new_bill"
+        />
+
+
+</FrameLayout>

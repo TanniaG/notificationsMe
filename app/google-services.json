@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687348398313",
+    "project_id": "saasa-aa15d",
+    "storage_bucket": "saasa-aa15d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687348398313:android:7198463812c5ce0fbd5878",
+        "android_client_info": {
+          "package_name": "com.example.notificationsme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687348398313-ujisn086naord2m7oh7kr7mgegebege8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfBuy_VOr5qEEOLrtkZhH-fGjWmz_lw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687348398313-ujisn086naord2m7oh7kr7mgegebege8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
